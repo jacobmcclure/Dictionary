@@ -1,0 +1,20 @@
+Jacob McClure
+jatmcclu@ucsc.edu
+
+1) README - (this file) a table of contents for the repository
+
+2) Dictionary.c - executable C file for the Dictionary ADT which utilizes
+   an array of pointers which all reference the head node of a linked list.
+   That is, several linked lists embedded in an array, where the array itself
+   contains pointers to the heads of each linked list. Collisions are handled by
+   appending the new node as the tail of the linked list whose head it collided
+   with.
+
+3) Dictionary.h - header file that contains all of the function prototypes
+   for Dictionary.c.
+
+4) DictionaryTest.c - test client for Dictionary.c that checks
+   functionality of all functions and structs, etc.
+
+5) Makefile - Tool created to ease the compilation and execution of 
+   Dictionary.c. Also contains a memcheck tool to check for memory leaks.
